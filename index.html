@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Profissional- Vinícius Kenji Higa Makimoto</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        defer></script>
+
+    <!-- W3 Schools -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    header {
+        background: black;
+    }
+
+    nav {
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+
+    .alinhamento {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .menu li {
+        display: inline;
+        margin: 20px;
+    }
+
+    nav a {
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none !important;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+
+    .fundo {
+        background-color: black;
+    }
+
+    body .alinhamentoDois {
+        background-image: url(Imagens/img\ 1.jpg);
+    }
+
+    body h2 {
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    h3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: white;
+        padding-left: 15px;
+    }
+
+    body p {
+        color: #889fa9;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .alinhamentoDois {
+        background: #310054;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    main {
+        margin: 50px;
+        background: black;
+    }
+
+    .alinhamentoTres {
+        background-color: #310054;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    main .alinhamentoTres p {
+        color: white;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .projetos {
+        background: black;
+        padding: 20px;
+    }
+
+    .pages {
+        display: flex;
+    }
+
+    .pages img {
+        padding-right: 30px;
+    }
+
+    .certificados {
+        background: black;
+        padding: 20px;
+    }
+
+
+    .idiomas {
+        padding: 20px;
+    }
+
+    .animated-progress {
+        width: 150vh;
+        height: 30px;
+        border-radius: 10px;
+        margin: 20px 10px;
+        border: 2px solid white;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .animated-progress span {
+        height: 100%;
+        display: block;
+        color: rgb(255, 251, 251);
+        line-height: 30px;
+        position: absolute;
+        text-align: end;
+        padding-right: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    .progress-blue span {
+        background-color: blue;
+        width: 150vh;
+    }
+
+    .progress-green span {
+        background-color: green;
+        width: 110vh;
+    }
+
+    .progress-purple span {
+        background-color: indigo;
+        width: 55vh;
+    }
+
+    .progress-red span {
+        background-color: red;
+        width: 40vh;
+    }
+
+
+    .container {
+        padding-bottom: 20px;
+    }
+
+    .contato {
+        background: #a50000;
+        padding: 20px;
+        display: flex;
+        padding-top: 40px;
+
+    }
+
+    .contato a {
+        margin-inline: auto 200px;
+        padding: 15px;
+    }
+
+    .contato button a {
+        color: white;
+    }
+
+    .contato button {
+        margin-top: 10px;
+        height: 80px;
+        width: 180px;
+    }
+
+    .contato h2 {
+        margin-top: 30px;
+    }
+</style>
+
+<header>
+    <div class="alinhamento">
+        <div><a href="index.html"><img src="Imagens/Logo 2.png"></a></div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#IdProjetos">Projetos</a></li>
+                <li><a href="#IdCertificados">Certificados</a></li>
+                <li><a href="#IdContato">Contatos</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="fundo">
+
+    <body>
+        <div class="alinhamentoDois">
+            <h2>Vinícius Kenji Higa Makimoto</h2>
+            <p>Information System student dedicated to Web Fullstack development.</p>
+            <!-- Linkedin -->
+            <i class="fab fa-linkedin-in"></i>
+
+        </div>
+    </body>
+
+    <main>
+        <div class="alinhamentoTres">
+            <div id="sobre">
+                <h2>Sobre mim</h2>
+            </div>
+            <p>Sou amante da programação, principalmente da área de desenvolvimento Web Fullstack. Foi no ano de 2020
+                que comecei
+                a estudar sobre esta área, na qual me aventuro até os dias de hoje. Conclui o Ensino Médio no ano de
+                2021 e juntamente a escola finalizei meus cursos técnicos em Mecânica Industrial e
+                desenvolvimento Web Fullstack, os dois formados pelo SENAI. Atualmente estou estagiando na Bubbles
+                Tecnologia e sou responsável pelo desenvolvimento de sites e softwares.</p>
+        </div>
+    </main>
+
+    <div class="idiomas">
+        <h2>Idiomas</h2>
+        <h3>Níveis de fluência</h3>
+        <div class="animated-progress progress-blue">
+            <span data-progress="45">Português 100%</span>
+        </div>
+
+        <div class="animated-progress progress-green">
+            <span data-progress="60">Inglês 70%</span>
+        </div>
+        <div class="animated-progress progress-purple">
+            <span data-progress="70">Japonês 30%</span>
+        </div>
+        <div class="animated-progress progress-red">
+            <span data-progress="85">Espanhol 20%</span>
+        </div>
+
+    </div>
+</div>
+
+<div class="projetos">
+    <div id="IdProjetos">
+        <h2>Projetos Desenvolvidos</h2>
+    </div>
+    <ul class="pages">
+        <div><a href="https://pvcziper.com.br/"><img src="Imagens/SitePVC.jpg"></a></div>
+        <div><a href="https://hub.bubblestecnologia.com.br/"><img src="Imagens/SiteCenterPaes.jpg" alt=""></a></div>
+    </ul>
+</div>
+
+<div class="certificados">
+    <div id="IdCertificados">
+        <h2>Certificados</h2>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Imagens/Ensino Médio.jpg" class="d-block w-70" alt="..." style="margin: 0 auto;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagens/Curso Técnico em Mecânica Industrial.jpg" class="d-block w-70" alt="..."
+                            style="margin: 0 auto;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagens/Curso Técnico em Desenvolvimento Fullstack.jpg" class="d-block w-70" alt="..."
+                            style="margin: 0 auto">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contato">
+    <h2 id="IdContato">Entre em contato</h2>
+    <a href="https://linktr.ee/kenjidev"><button type="button" class="btn btn-lg btn-primary"
+            style="background-color: blue;">Clique
+            aqui</button></a>
+</div>
+
+</div>
+
+</html>
